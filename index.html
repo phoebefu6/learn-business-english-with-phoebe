@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- social:start -->
+<meta name="description" content="Six sessions on confident, natural workplace English for people who work in a second or third language: plain over formal, emails that get answered, speaking up in meetings, a plain-English bench calibrated on 400 real business emails, numbers out loud, and a phrase bank you keep. Free, by Phoebe Fu.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Learn with Phoebe">
+<meta property="og:title" content="Learn Business English with Phoebe">
+<meta property="og:description" content="Stiff English reads as unsure. Six sessions on plain, confident workplace English, with your own email measured against 400 real ones in your browser.">
+<meta property="og:url" content="https://phoebefu6.github.io/learn-business-english-with-phoebe/">
+<meta property="og:image" content="https://phoebefu6.github.io/learn-business-english-with-phoebe/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Learn Business English with Phoebe">
+<meta name="twitter:description" content="Plain beats formal. Your email against 400 real ones, counted in your browser.">
+<meta name="twitter:image" content="https://phoebefu6.github.io/learn-business-english-with-phoebe/assets/og-cover.png">
+<!-- social:end -->
+<title>Learn Business English with Phoebe</title>
+<link rel="stylesheet" href="assets/style.css?v=2">
+<style>
+
+  .stats-row { display: flex; gap: 2.4rem; margin-top: 1.5rem; flex-wrap: wrap; }
+  .stat b { display: block; font-size: 2.1rem; font-weight: 800; line-height: 1.05; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: .72rem; opacity: 1; text-transform: uppercase; letter-spacing: .09em; font-weight: 600; }
+
+  .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+  .course-card {
+    border: 1px solid var(--hairline);
+    border-top: 4px solid var(--diff, var(--indigo));
+    border-radius: var(--radius);
+    padding: 1.2rem 1.3rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-decoration: none;
+    color: var(--ink);
+    background: #fff;
+    transition: box-shadow .15s ease, border-color .15s ease, transform .15s ease;
+    position: relative;
+  }
+  .course-card:hover { border-color: var(--indigo-soft); border-top-color: var(--diff, var(--indigo)); box-shadow: 0 8px 28px rgba(var(--shadow-rgb),.16); transform: translateY(-3px); }
+  .course-card .cicon { font-size: 1.7rem; line-height: 1; }
+  .course-card .cnum { font-size: .72rem; font-weight: 700; color: var(--indigo); text-transform: uppercase; letter-spacing: .1em; }
+  .course-card h3 { font-size: 1.05rem; font-weight: 800; line-height: 1.3; }
+  .course-card p { font-size: .85rem; color: var(--muted); flex: 1; }
+  .course-card .meta { display: flex; gap: .4rem; flex-wrap: wrap; }
+
+  .diff-legend { display: flex; gap: 1rem; margin-top: 1.6rem; font-size: .74rem; color: var(--muted); font-weight: 600; flex-wrap: wrap; }
+  .diff-legend i { display: inline-block; width: .85rem; height: .35rem; border-radius: 999px; margin-right: .35rem; vertical-align: middle; }
+
+  .paths { margin-top: 2.6rem; }
+  .paths h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: .3rem; }
+  .paths .plede { color: var(--muted); font-size: .92rem; margin-bottom: .8rem; }
+  .path { display: flex; gap: .55rem; align-items: center; padding: .75rem 0; border-bottom: .5px solid var(--hairline); flex-wrap: wrap; }
+  .path:last-child { border-bottom: none; }
+  .path b { min-width: 15.5rem; font-size: .9rem; }
+  .path .pstep { background: var(--indigo-50); color: var(--indigo); border-radius: 999px; padding: .16rem .68rem; font-weight: 700; font-size: .8rem; text-decoration: none; transition: all .12s ease; }
+  .path .pstep:hover { background: var(--indigo); color: #fff; }
+  .path .parr { color: var(--muted); font-weight: 700; }
+
+  .mm-section { margin-top: 1.6rem; }
+  .mm-section h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: .2rem; }
+  .mm-section .mm-lede { color: var(--muted); font-size: .92rem; margin-bottom: .4rem; }
+  .mm-wrap { border: 1px solid var(--hairline); border-radius: var(--radius); background: linear-gradient(180deg,#fff,var(--indigo-50)); padding: .6rem; overflow-x: auto; }
+  .mm-svg { width: 100%; height: auto; display: block; max-width: 60rem; margin: 0 auto; min-width: 34rem; }
+  .mm-link { cursor: pointer; text-decoration: none; }
+  .mm-node rect { transition: opacity .15s ease, filter .15s ease; }
+  .mm-node text { pointer-events: none; }
+  .mm-link:hover .mm-node rect { filter: brightness(1.06); }
+  .mm-edge { transition: opacity .15s ease; }
+
+  .not-this { border: 1px solid var(--hairline); border-left: 4px solid var(--clay); border-radius: var(--radius); background: #fff; padding: 1.1rem 1.3rem; margin-top: 1.2rem; }
+  .not-this h3 { font-size: .95rem; font-weight: 800; margin-bottom: .5rem; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">Learn with Phoebe · Communication</div>
+    <h1>Learn <span class="accent">Business English</span> with Phoebe</h1>
+    <p class="sub">If English is your second or third language, you probably learned the formal kind: "kindly revert", "please find attached herewith", "I just wanted to inform you". It feels safe. To a busy reader in another office it reads as distant, unsure, or simply hard to act on. Six sessions on plain, confident workplace English: emails that get answered, speaking up in meetings, numbers said out loud, and a phrase bank you keep. One constructed running case, and your own email measured against 400 real business emails in your browser. The goal is English any reader understands on the first pass, not English that sounds native.</p>
+    <div class="stats-row">
+      <div class="stat"><b data-count="6">6</b><span>sessions</span></div>
+      <div class="stat"><b data-count="400">400</b><span>real emails on the bench</span></div>
+      <div class="stat"><b data-count="6">6</b><span>habits counted</span></div>
+      <div class="stat"><b data-count="146">146</b><span>real mailboxes sampled</span></div>
+      <div class="stat"><b data-count="45">45</b><span>min per session</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="section">
+    <div class="paths" style="margin-top:0">
+      <h2>The six sessions 🎯 <span style="font-size:.85rem;font-weight:600;color:var(--muted)">· from stiff to plain, on paper and out loud</span></h2>
+      <p class="plede">The running case is <strong>Mei Lin Goh, a constructed data analyst at Harbourline, a constructed logistics company in Singapore</strong>. Her analysis is excellent and her emails get slow replies. She is invented for teaching, and every page says so. Alongside her, every build-along runs on your own emails and your own meetings.</p>
+    </div>
+
+    <div class="course-grid">
+      <a class="course-card" href="courses/01-plain-beats-formal.html" style="--diff:#34D399">
+        <span class="cicon">🪶</span>
+        <span class="cnum">Session 1 · foundations</span>
+        <h3>Plain beats formal</h3>
+        <p>Why stiff, template English reads as unsure rather than respectful, register as a dial, and the six habits you can count. Build-along: mark one of your own emails by hand.</p>
+        <span class="meta"><span class="pill amber">▶ Start here</span></span>
+      </a>
+      <a class="course-card" href="courses/02-emails-that-get-answered.html" style="--diff:#FBBF24">
+        <span class="cicon">✉️</span>
+        <span class="cnum">Session 2 · core</span>
+        <h3>Emails that get answered</h3>
+        <p>A subject line that says what the email is for, the request in the first two lines, and softeners that keep the courtesy without the doubt. Build-along: the email you need to send this week.</p>
+        <span class="meta"><span class="pill">subject, request, softeners</span></span>
+      </a>
+      <a class="course-card" href="courses/03-speaking-up-in-meetings.html" style="--diff:#FBBF24">
+        <span class="cicon">🗣️</span>
+        <span class="cnum">Session 3 · core</span>
+        <h3>Speaking up in meetings</h3>
+        <p>Phrase banks for joining a discussion, disagreeing without damage and interrupting politely, mapped to what the CEFR describes at B1, B2 and C1. Build-along: your three lines for the next meeting.</p>
+        <span class="meta"><span class="pill">three phrase banks</span></span>
+      </a>
+      <a class="course-card" href="courses/04-the-plain-english-bench.html" style="--diff:#F87171">
+        <span class="cicon">🔬</span>
+        <span class="cnum">Session 4 · bench night</span>
+        <h3>The plain-English bench</h3>
+        <p>Six detectors run on your own email and set it against 400 real business emails. A stiff draft rewritten one habit at a time, the sound-more-formal anti-lever, and a break button.</p>
+        <span class="meta"><span class="pill amber">★ the bench</span></span>
+      </a>
+      <a class="course-card" href="courses/05-numbers-and-updates-out-loud.html" style="--diff:#FB923C">
+        <span class="cicon">📊</span>
+        <span class="cnum">Session 5 · deeper</span>
+        <h3>Numbers and updates, out loud</h3>
+        <p>Saying numbers, change and uncertainty so a room hears them once and gets them right: points against percent, ranges, and the ninety-second spoken status update.</p>
+        <span class="meta"><span class="pill">points vs percent</span></span>
+      </a>
+      <a class="course-card" href="courses/06-your-phrase-bank.html" style="--diff:#FB923C">
+        <span class="cicon">🗂️</span>
+        <span class="cnum">Session 6 · deeper</span>
+        <h3>Your phrase bank and practice loop</h3>
+        <p>A personal phrase bank mined from your own sent mail, a monthly re-run of the bench against your baseline, and a practice loop small enough to keep. Final scorecard.</p>
+        <span class="meta"><span class="pill amber">🔒 final scorecard</span></span>
+      </a>
+    </div>
+
+    <div class="diff-legend">
+      <span><i style="background:#34D399"></i>foundations</span>
+      <span><i style="background:#FBBF24"></i>core</span>
+      <span><i style="background:#FB923C"></i>deeper</span>
+      <span><i style="background:#F87171"></i>bench night</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="paths" style="margin-top:0">
+      <h2>Your passport 🎫</h2>
+      <p class="plede">Clear all three quiz questions in a session and it gets stamped. Six stamps means you can spot the six stiff habits in your own writing, write an email that gets a reply, hold your turn in a meeting, measure a draft against real email, say a number so it lands, and keep improving without a teacher. Stamps live in this browser only.</p>
+    </div>
+    <div class="pp-strip"></div>
+  </section>
+
+  <section class="section">
+    <div class="not-this">
+      <h3>What this is not, so you land in the right place 🧭</h3>
+      <table class="clean">
+        <tr><th>If your question is</th><th>Go here instead</th></tr>
+        <tr><td>Where should the ask go, how do I structure a message, how do I deliver bad news?</td><td><a href="https://phoebefu6.github.io/learn-communication-with-phoebe/">Communication ↗</a></td></tr>
+        <tr><td>How do I give a talk: slides, voice, nerves, a room of fifty?</td><td><a href="https://phoebefu6.github.io/learn-public-speaking-with-phoebe/">Public Speaking ↗</a></td></tr>
+        <tr><td>I need business Chinese, not business English</td><td><a href="https://phoebefu6.github.io/learn-business-chinese-basic-with-phoebe/">Business Chinese Basic ↗</a> · <a href="https://phoebefu6.github.io/learn-business-chinese-advanced-with-phoebe/">Advanced ↗</a></td></tr>
+        <tr><td><strong>My English is good, and it still comes out stiff, slow to get replies, or hard to say in a meeting.</strong></td><td><strong>you are in the right place</strong></td></tr>
+      </table>
+      <p style="margin-top:.7rem;font-size:.86rem;color:var(--muted)"><strong>Language, not structure.</strong> These pages work inside the sentence: the words and phrases that make English sound stiff or sure. Message structure, presentation delivery and Chinese for business are taught next door and linked from here rather than repeated.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="paths">
+      <h2>Choose your path 🗺️</h2>
+      <p class="plede">Three doors into the same habit: write it the way you would say it across a table.</p>
+      <div class="path"><b>✉️ My emails get slow replies</b>
+        <a class="pstep" href="courses/01-plain-beats-formal.html">1</a><span class="parr">→</span>
+        <a class="pstep" href="courses/02-emails-that-get-answered.html">2</a><span class="parr">→</span>
+        <a class="pstep" href="courses/04-the-plain-english-bench.html">4</a>
+        <span style="font-size:.82rem;color:var(--muted)">see the habits, rewrite one email, measure it</span>
+      </div>
+      <div class="path"><b>🗣️ I go quiet in meetings</b>
+        <a class="pstep" href="courses/03-speaking-up-in-meetings.html">3</a><span class="parr">→</span>
+        <a class="pstep" href="courses/05-numbers-and-updates-out-loud.html">5</a>
+        <span style="font-size:.82rem;color:var(--muted)">phrases to take the floor, then numbers that land</span>
+      </div>
+      <div class="path"><b>🗂️ The whole system</b>
+        <a class="pstep" href="courses/01-plain-beats-formal.html">1</a><span class="parr">→</span>
+        <a class="pstep" href="courses/02-emails-that-get-answered.html">2</a><span class="parr">→</span>
+        <a class="pstep" href="courses/03-speaking-up-in-meetings.html">3</a><span class="parr">→</span>
+        <a class="pstep" href="courses/04-the-plain-english-bench.html">4</a><span class="parr">→</span>
+        <a class="pstep" href="courses/05-numbers-and-updates-out-loud.html">5</a><span class="parr">→</span>
+        <a class="pstep" href="courses/06-your-phrase-bank.html">6</a>
+        <span style="font-size:.82rem;color:var(--muted)">from marking one email to a phrase bank you keep</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="paths" style="margin-top:0">
+      <h2>What is honest here 🧾</h2>
+      <p class="plede">English-at-work advice travels with rules nobody can source. Each claim on these pages carries its status, and where nothing citable exists, the page says that instead.</p>
+    </div>
+    <table class="clean">
+      <tr><th>Claim</th><th>Status</th></tr>
+      <tr><td>Every bench figure: the counts, the rates, the 400-email distribution, the ladder, the anti-lever, the break button</td><td><strong>Really computed</strong> in your browser from 400 real emails in the public CMU Enron corpus (sent folders, numbers and addresses masked); a Python reference agrees on every count</td></tr>
+      <tr><td>The six detectors</td><td><strong>A heuristic.</strong> Chosen phrase lists and patterns; every hit is shown by name so you can overrule it</td></tr>
+      <tr><td>Plain English Campaign, US federal plain language guidelines, Gowers 1954, the CEFR Companion Volume</td><td><strong>Read at source,</strong> including where they disagree with each other</td></tr>
+      <tr><td>"Readers spend a few seconds on an email"</td><td><strong>No primary source found.</strong> Not used</td></tr>
+      <tr><td>Regional office phrases descend from colonial English</td><td><strong>Plausible, unsourced.</strong> Not claimed</td></tr>
+      <tr><td>Mei Lin Goh, Harbourline, her emails and meetings</td><td><strong>Constructed,</strong> for teaching</td></tr>
+    </table>
+  </section>
+
+  <section class="section mm-section">
+    <h2>The knowledge map 🧠</h2>
+    <p class="mm-lede">The whole path at a glance - hover a session to spotlight its concepts, click any node to jump in.</p>
+    <div class="mm-wrap"><div id="mindmap"></div></div>
+  </section>
+
+  <footer class="pagefoot">
+    <span>learn-business-english-with-phoebe · by Phoebe Fu &nbsp;·&nbsp; 📚 <a href="https://phoebefu6.github.io/learn-with-phoebe/">Learn with Phoebe ↗</a></span>
+    <span>Neighbours on the shelf: <a href="https://phoebefu6.github.io/learn-communication-with-phoebe/">Communication ↗</a> &nbsp;·&nbsp; <a href="https://phoebefu6.github.io/learn-public-speaking-with-phoebe/">Public Speaking ↗</a> &nbsp;·&nbsp; <a href="https://phoebefu6.github.io/learn-business-chinese-basic-with-phoebe/">Business Chinese ↗</a></span>
+  </footer>
+
+</main>
+
+<script>
+window.MINDMAP_DATA = {
+ "title": "Business\nEnglish",
+ "centerColor": "#1F434B",
+ "sessions": [
+  {
+   "label": "Plain beats\nformal",
+   "href": "courses/01-plain-beats-formal.html",
+   "color": "#34D399",
+   "concepts": [
+    {
+     "label": "Reader does the cutting",
+     "href": "courses/01-plain-beats-formal.html"
+    },
+    {
+     "label": "Plain is not casual",
+     "href": "courses/01-plain-beats-formal.html"
+    },
+    {
+     "label": "Six habits you can count",
+     "href": "courses/01-plain-beats-formal.html"
+    }
+   ]
+  },
+  {
+   "label": "Emails that\nget answered",
+   "href": "courses/02-emails-that-get-answered.html",
+   "color": "#FBBF24",
+   "concepts": [
+    {
+     "label": "Subject lines that work",
+     "href": "courses/02-emails-that-get-answered.html"
+    },
+    {
+     "label": "The request up front",
+     "href": "courses/02-emails-that-get-answered.html"
+    },
+    {
+     "label": "Softeners, not hedges",
+     "href": "courses/02-emails-that-get-answered.html"
+    }
+   ]
+  },
+  {
+   "label": "Speaking up\nin meetings",
+   "href": "courses/03-speaking-up-in-meetings.html",
+   "color": "#FBBF24",
+   "concepts": [
+    {
+     "label": "Joining the conversation",
+     "href": "courses/03-speaking-up-in-meetings.html"
+    },
+    {
+     "label": "Disagreeing politely",
+     "href": "courses/03-speaking-up-in-meetings.html"
+    },
+    {
+     "label": "Interrupting well",
+     "href": "courses/03-speaking-up-in-meetings.html"
+    }
+   ]
+  },
+  {
+   "label": "The plain-English\nbench",
+   "href": "courses/04-the-plain-english-bench.html",
+   "color": "#F87171",
+   "concepts": [
+    {
+     "label": "Six detectors, real base",
+     "href": "courses/04-the-plain-english-bench.html"
+    },
+    {
+     "label": "The ladder",
+     "href": "courses/04-the-plain-english-bench.html"
+    },
+    {
+     "label": "Anti-lever and break",
+     "href": "courses/04-the-plain-english-bench.html"
+    }
+   ]
+  },
+  {
+   "label": "Numbers and\nupdates, out loud",
+   "href": "courses/05-numbers-and-updates-out-loud.html",
+   "color": "#FB923C",
+   "concepts": [
+    {
+     "label": "Saying numbers",
+     "href": "courses/05-numbers-and-updates-out-loud.html"
+    },
+    {
+     "label": "Change and uncertainty",
+     "href": "courses/05-numbers-and-updates-out-loud.html"
+    },
+    {
+     "label": "The spoken update",
+     "href": "courses/05-numbers-and-updates-out-loud.html"
+    }
+   ]
+  },
+  {
+   "label": "Your phrase bank",
+   "href": "courses/06-your-phrase-bank.html",
+   "color": "#FB923C",
+   "concepts": [
+    {
+     "label": "Mine your sent mail",
+     "href": "courses/06-your-phrase-bank.html"
+    },
+    {
+     "label": "The monthly re-run",
+     "href": "courses/06-your-phrase-bank.html"
+    },
+    {
+     "label": "A practice loop",
+     "href": "courses/06-your-phrase-bank.html"
+    }
+   ]
+  }
+ ]
+};
+</script>
+<script src="assets/mindmap.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+</body>
+</html>

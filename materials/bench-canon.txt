@@ -1,0 +1,16 @@
+emails 400, python==node on all 400 x 10 counts and 400 shuffled: YES
+totals: {'words': 32944, 'sentences': 2720, 'hedge': 94, 'noun': 27, 'passive': 209, 'long': 109, 'formal': 24, 'regional': 0, 'polite': 328, 'flags': 463}
+share of emails with >=1: {'hedge': 0.185, 'noun': 0.06, 'passive': 0.3525, 'long': 0.22, 'formal': 0.0525, 'regional': 0.0, 'polite': 0.505, 'flags': 0.58}
+per100 median 1.11 p90 3.03 (node 1.11 3.03); pooled 1.41 (node 1.41)
+sentences 2720; length p50 10 p75 17 p90 24 p95 29; mean 12.1; over limit 30: 109
+ladder:
+  As drafted                       {'words': 119, 'sentences': 7, 'hedge': 6, 'noun': 3, 'passive': 3, 'long': 1, 'formal': 7, 'regional': 2, 'polite': 2, 'flags': 22} per100 18.49 below 400/400  shuffled flags 9 OK
+  1 Cut the hedges                 {'words': 103, 'sentences': 7, 'hedge': 0, 'noun': 3, 'passive': 3, 'long': 1, 'formal': 6, 'regional': 2, 'polite': 2, 'flags': 15} per100 14.56 below 400/400  shuffled flags 3 OK
+  2 Swap the stock phrases         {'words': 72, 'sentences': 6, 'hedge': 0, 'noun': 3, 'passive': 3, 'long': 1, 'formal': 0, 'regional': 0, 'polite': 2, 'flags': 7} per100 9.72 below 400/400  shuffled flags 2 OK
+  3 Unhide the verbs               {'words': 67, 'sentences': 6, 'hedge': 0, 'noun': 0, 'passive': 2, 'long': 1, 'formal': 0, 'regional': 0, 'polite': 2, 'flags': 3} per100 4.48 below 389/400  shuffled flags 2 OK
+  4 Make it active                 {'words': 59, 'sentences': 6, 'hedge': 0, 'noun': 0, 'passive': 0, 'long': 1, 'formal': 0, 'regional': 0, 'polite': 2, 'flags': 1} per100 1.69 below 254/400  shuffled flags 1 OK
+  5 Split the long sentence        {'words': 55, 'sentences': 6, 'hedge': 0, 'noun': 0, 'passive': 0, 'long': 0, 'formal': 0, 'regional': 0, 'polite': 2, 'flags': 0} per100 0.0 below 0/400  shuffled flags 0 OK
+  Anti-lever: sound more formal    {'words': 95, 'sentences': 6, 'hedge': 0, 'noun': 3, 'passive': 8, 'long': 1, 'formal': 11, 'regional': 1, 'polite': 0, 'flags': 24} per100 25.26 below 400/400  shuffled flags 6 OK
+break over sample (node): {'before': 354, 'after': 73, 'multiBefore': 337, 'multiAfter': 56}
+break over sample (python): multiword 337 -> 56
+RESULT AGREE
